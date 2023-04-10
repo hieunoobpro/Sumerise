@@ -20,6 +20,6 @@ public class Main {
         // sort by price
         productHandle.sortByPrice(products);
         Menu menu = new Menu();
-        productHandle.filterByPrice(products,menu.menuSelectByPrice(scanner,products));
+        productHandle.filterByPrice(products,menu.menuSelectByPrice(scanner));
     }
 }

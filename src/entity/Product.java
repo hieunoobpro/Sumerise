@@ -8,13 +8,13 @@ import lombok.Setter;
     @NoArgsConstructor
     @AllArgsConstructor
     public class Product {
-        private int id,number;
-        private String name, discription;
+        private int number, id;
+        private String name, description;
         private double price;
     @Override
     public String toString() {
         return "Product{" +
-                "id=" + id +
+                "id=" + (id+1) +
                 ", name='" + name + '\'' +
                 ", price=" + price +
                 '}';
